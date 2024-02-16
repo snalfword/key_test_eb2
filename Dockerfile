@@ -13,5 +13,5 @@ RUN apt-get update -y && \
     chmod 777 /app/index.js && \
     chmod -R 777 /app && \
     npm install
-
+    
 CMD ["node", "index.js"]
